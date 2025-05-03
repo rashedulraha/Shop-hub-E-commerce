@@ -59,7 +59,7 @@ samp {
 
 .fa-facebook,
 .fa-instagram,
-.fa-twitter {
+.fa-linkedin {
   color: var(--primary-accent);
   font-size: 1.2rem;
   transition: 0.3s ease;
@@ -67,8 +67,12 @@ samp {
 
 .fa-facebook:hover,
 .fa-instagram:hover,
-.fa-twitter:hover {
+.fa-linkedin:hover {
   transform: translateY(-0.2rem);
+  -webkit-transform: translateY(-0.2rem);
+  -moz-transform: translateY(-0.2rem);
+  -ms-transform: translateY(-0.2rem);
+  -o-transform: translateY(-0.2rem);
 }
 
 .main-header-contact--container {
@@ -194,7 +198,7 @@ i {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(hero.jpg);
+  background-image: url(/Image/hero.jpg);
   background-size: cover;
   z-index: -2;
 }
@@ -462,6 +466,7 @@ h3 {
   display: flex;
   margin-top: 3rem;
   align-items: center;
+  border-bottom: 0.1rem solid var(--primary-accent);
   justify-content: center;
   height: 30rem;
   width: 100%;

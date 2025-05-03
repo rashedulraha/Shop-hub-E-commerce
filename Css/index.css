@@ -44,6 +44,10 @@ ul {
   color: var(--primary-dark);
   cursor: pointer;
 }
+.main-logo a {
+  color: var(--primary-dark);
+  font-weight: bold;
+}
 
 samp {
   color: var(--primary-accent);

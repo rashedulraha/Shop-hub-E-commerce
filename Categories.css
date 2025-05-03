@@ -1,0 +1,4 @@
+.main-logo a {
+  color: var(--primary-dark);
+  font-weight: bold;
+}

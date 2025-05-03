@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container header-section">
+      <div class="logo-container">
+        <ul>
+          <li>
+            <h2 class="main-logo">
+              <a href="index.html">Shop Hu<samp>B</samp></a>
+            </h2>
+          </li>
+        </ul>
+      </div>
+
+      <div class="input">
+        <label for="input"></label>
+        <input type="search" placeholder="Search any product" />
+        <button class="magnifying animated-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="account-wishlist-cut">
+        <ul>
+          <li><i class="fa-solid fa-user"></i> Acount</li>
+          <li><i class="fa-solid fa-heart"></i> Wishlist</li>
+          <li><i class="fa-solid fa-cart-shopping"></i> Cart(0)</li>
+        </ul>
+      </div>
+    </div>
+    <section class="contact-section">
+      <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="#" method="POST">
+          <div>
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div>
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Write subject"
+              required
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

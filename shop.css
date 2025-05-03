@@ -1,0 +1,16 @@
+.header-section {
+  border-bottom: 0.1rem solid var(--secondary-warning);
+}
+
+.Featured-Products-container {
+  padding-top: 2rem;
+}
+
+.magnifying {
+  box-shadow: none;
+}
+
+.main-logo a {
+  color: var(--primary-dark);
+  font-weight: bold;
+}

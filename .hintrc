@@ -8,13 +8,6 @@
       {
         "button-name": "off"
       }
-    ],
-    "axe/forms": [
-      "default",
-      {
-        "label": "off"
-      }
-    ],
-    "meta-viewport": "off"
+    ]
   }
 }

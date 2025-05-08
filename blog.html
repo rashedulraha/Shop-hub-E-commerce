@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./Css/AboutUs.css" />
     <link rel="stylesheet" href="./Css/index.css" />
+    <link rel="stylesheet" href="./Css/blog.css" />
   </head>
   <body>
     <div class="container header-section">
@@ -42,5 +43,138 @@
         </ul>
       </div>
     </div>
+
+    <section class="blog-page">
+      <div class="blog-header">
+        <h1>Our Blog</h1>
+        <p>Latest news, tips and insights from our team</p>
+      </div>
+
+      <div class="blog-container">
+        <main class="blog-posts">
+          <!-- Blog Post 1 -->
+          <article class="blog-card">
+            <img src="blog-image1.jpg" alt="Blog Post" class="blog-image" />
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span
+                  ><i class="fa-regular fa-calendar"></i> June 15, 2023</span
+                >
+                <span><i class="fa-regular fa-user"></i> Admin</span>
+                <span><i class="fa-regular fa-comments"></i> 5 Comments</span>
+              </div>
+              <h2 class="blog-title">
+                How to Choose the Right Products for Your Needs
+              </h2>
+              <p class="blog-excerpt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                in dui mauris. Vivamus hendrerit arcu sed erat molestie
+                vehicula...
+              </p>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <!-- Blog Post 2 -->
+          <article class="blog-card">
+            <img src="blog-image2.jpg" alt="Blog Post" class="blog-image" />
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span
+                  ><i class="fa-regular fa-calendar"></i> June 10, 2023</span
+                >
+                <span><i class="fa-regular fa-user"></i> Admin</span>
+                <span><i class="fa-regular fa-comments"></i> 3 Comments</span>
+              </div>
+              <h2 class="blog-title">The Latest Trends in Home Decor</h2>
+              <p class="blog-excerpt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                in dui mauris. Vivamus hendrerit arcu sed erat molestie
+                vehicula...
+              </p>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <!-- Pagination -->
+          <div class="blog-pagination">
+            <a href="#" class="pagination-link active">1</a>
+            <a href="#" class="pagination-link">2</a>
+            <a href="#" class="pagination-link">3</a>
+            <a href="#" class="pagination-link">Next</a>
+          </div>
+        </main>
+
+        <aside class="blog-sidebar">
+          <!-- Search Widget -->
+          <div class="sidebar-widget">
+            <h3 class="sidebar-title">Search</h3>
+            <form class="search-form">
+              <input type="text" placeholder="Search..." class="search-input" />
+              <button type="submit" class="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+
+          <!-- Categories Widget -->
+          <div class="sidebar-widget">
+            <h3 class="sidebar-title">Categories</h3>
+            <ul class="category-list">
+              <li class="category-item">
+                <a href="#" class="category-link"
+                  >Fashion <span class="category-count">15</span></a
+                >
+              </li>
+              <li class="category-item">
+                <a href="#" class="category-link"
+                  >Electronics <span class="category-count">8</span></a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Recent Posts Widget -->
+          <div class="sidebar-widget">
+            <h3 class="sidebar-title">Recent Posts</h3>
+            <div class="recent-post">
+              <img
+                src="recent-post1.jpg"
+                alt="Recent Post"
+                class="recent-post-image"
+              />
+              <div class="recent-post-content">
+                <h4><a href="#">How to Choose the Right Products</a></h4>
+                <div class="recent-post-meta">June 15, 2023</div>
+              </div>
+            </div>
+            <div class="recent-post">
+              <img
+                src="recent-post2.jpg"
+                alt="Recent Post"
+                class="recent-post-image"
+              />
+              <div class="recent-post-content">
+                <h4><a href="#">The Latest Trends in Home Decor</a></h4>
+                <div class="recent-post-meta">June 10, 2023</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tags Widget -->
+          <div class="sidebar-widget">
+            <h3 class="sidebar-title">Tags</h3>
+            <div class="tags-container">
+              <a href="#" class="tag">Fashion</a>
+              <a href="#" class="tag">Electronics</a>
+              <a href="#" class="tag">Home</a>
+              <a href="#" class="tag">Beauty</a>
+              <a href="#" class="tag">Tips</a>
+              <a href="#" class="tag">Trends</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
   </body>
 </html>
